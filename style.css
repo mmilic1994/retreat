@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'From the Woods';
+    src: url(fonts/FromtheWoods-Regular.woff2);
+}
+
+h1 {
+    font-family: 'From the Woods';
+    font-size: 8rem;
+    padding: 3rem;
+}
+
+html {
+    font-family:'Open Sans';
+    color: #FFFFFF;
+    font-size: 24px;
+    background-color: #2D4823;
+}
+
+.puren {
+    background-color: #4F6A13;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem; 
+    margin: 2rem 1rem;
+   
+}
+
+.peaceom {
+    background-color: #4F6A13;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    margin: 2rem 1rem 2rem 50%;
+    bottom: 10rem;
+}
+
+.community {
+    background-color: #4F6A13;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    bottom: 20rem;
+
+}
+
+.wilderness {
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    margin: auto;
+    height: 90rem;
+   
+   
+    
+    
+    
+}
+
+footer {
+    background-color: #2D4823;
+    padding-bottom: 2rem;
+}
+
+.container {
+    width: 40em;
+    margin: auto; 
+
+}
+
+/*.container p {
+    padding: 2rem;
+}*/
+
+footer  {
+    padding-top: 3rem;
+}
+
+a {
+    color: #D3D3D3;
+}
+
+img {
+    padding-top: 2rem;
+}
+
+.puren p, .peacom p,.community p {
+    padding: 0.5rem 2rem;
+    
+}
